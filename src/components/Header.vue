@@ -1,8 +1,8 @@
 <template>
-    <section class="header">
+    <section class="header" ref="header">
             <header>
                 <div class="logo">
-                    <img src="../assets/kaffir-white.png" alt="kaffir.ng logo">
+                    <img src="../assets/kkf.png" alt="kaffir.ng logo">
                 </div>
                 <nav>
                     <ul>
@@ -16,37 +16,51 @@
                     <img src="../assets/icon-hamburger.svg" alt="icon bar">
                 </div>
             </header>
-            <div class="mobile-menu">
+            <div class="mobile-menu" ref="mobileMenu">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
     </section>
-
+    <div id="scrollTop" ref="top" @click="scrollToTop">
+        <p><i class="fa fa-long-arrow-up"></i></p>
+    </div>
 </template>
 
 <script>
 export default {
   methods:{
       toggleMobileMenu(){
-          const MobileMenu = document.querySelector('.mobile-menu')
-          MobileMenu.classList.toggle('show')
+          this.$refs.mobileMenu.classList.toggle('show')
+      },
+      scrollToTop(){
+          // For Chrome, Firefox, and Opera
+          document.documentElement.scrollTop = 0;
+          //For Safari
+          document.body.scrollTop = 0;
       }
   },
   mounted(){
       const header = document.querySelector('.header')
       const MobileMenu = document.querySelector('.mobile-menu')
       window.addEventListener('resize', ()=>{
-          let headerHeight = header.getBoundingClientRect().width;
-          if(headerHeight > 855){
+          let headerWidth = header.getBoundingClientRect().width;
+          if(headerWidth > 855){
                MobileMenu.classList.remove('show')
           }
       })
+      window.addEventListener('scroll', ()=>{
+          let screenHeght = window.pageYOffset;
+          if(screenHeght > 400){
+              this.$refs.top.classList.add('show')
+          }else{
+              this.$refs.top.classList.remove('show')
+          }
+      })
+
   },
   beforeUnmount(){
       window.removeEventListener('resize', this.oneresize)
@@ -58,20 +72,15 @@ export default {
 <style lang="scss" scoped>
 $primary-color: #4f52ff;
 
-
 section.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: $primary-color;
+    position: relative;
+    background-color: #fff;
     width: 100%;
     height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
     header{
         width: 80%;
         margin: 0 auto;
@@ -91,10 +100,10 @@ section.header{
                    padding: 0 15px;
                    a{
                        text-decoration: none;
-                       color: #fff;
+                       color: $primary-color;
                    }
                    a:hover{
-                       color: $primary-color;
+                       text-decoration: underline;
                    }
                }
            }
@@ -103,11 +112,25 @@ section.header{
             display: none;
         }
     }
+    .mobile-menu{
+        display: none;
+    }
+}
+#scrollTop.show{
+    display: block !important;
+}
+#scrollTop{
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    background: $primary-color;
+    color: #fff;
+    padding: 10px 15px; 
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-.mobile-menu{
-    display: none !important;
-}
 
 .mobile-menu.show{
     display: block !important;
@@ -130,34 +153,35 @@ section.header{
             }
         }
         .mobile-menu{
-        position: absolute;
-        top:15vh;
-        width: 100%;
-        background: $primary-color;
-        border-top: 1px solid #808080;
-        nav{
-            width: 80%;
-            margin: 0 auto;
+            position: absolute;
+            top: 15vh;
             padding: 10px 0;
-            ul{
-                li{
-                    list-style: none;
-                    padding: 10px 0;
-                    a{
-                        color: #fff;
-                        text-decoration: none;
+            width: 100%;
+            background: #fff;
+            z-index: 100;
+            nav{
+                width: 80%;
+                margin: 0 auto;
+                ul{
+                    li{
+                        padding: 10px 0;
+                        list-style: none;
+                        a{
+                            color: $primary-color;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
         }
-    }
+        
     }
     
 }
 
 @media (max-width:600px){
     section.header{
-         height: 10vh;
+        height: 10vh;
         header{
             .logo{
                 img{

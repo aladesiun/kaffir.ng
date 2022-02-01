@@ -15,6 +15,7 @@
 </template>
 
 <script>
+
 import Project from './Project.vue'
 
 export default {
@@ -24,6 +25,7 @@ export default {
         }
     },
     components:{Project}
+
 }
 </script>
 

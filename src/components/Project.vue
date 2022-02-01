@@ -1,5 +1,5 @@
 <template>
-    <div class="project">
+    <div class="project" data-aos="fade-up">
         <img :src=img :alt=imgTitle>
         <p id="title">{{title}}</p>
         <p id="about-project">{{about}}</p>
@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
     props: {
         img: String,
@@ -16,6 +18,11 @@ export default {
         title: String,
         about: String,
         link: String,
+    },
+    mounted(){
+        AOS.init({
+            duration:800,
+        })
     }
 }
 </script>
