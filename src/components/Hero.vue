@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero bg-red-900">
       <div class="container" data-aos="zoom-in">
           <div class="hero-text">
               <h1>Welcome to <span>Kaffir</span></h1>
@@ -8,8 +8,8 @@
               <a href="#">Learn More</a>
           </div>
           <div class="hero-asset">
-              <img src="../assets/undraw_programming_re_kg9v.svg" alt="programmer-image">
-              <img src="../assets/undrawpair.svg" alt="programmer-image">
+              <img src="../assets/undraw_programming_re_kg9v.svg" alt="programmer-image" class="hovereffect">
+              <img src="../assets/undrawpair.svg" alt="programmer-image" class="showsvg">
           </div>
       </div>
   </section>
