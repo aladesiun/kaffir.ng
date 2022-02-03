@@ -20,12 +20,14 @@
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
     </section>
-    <div id="scrollTop" ref="top" @click="scrollToTop">
+    <div id="scrollTop" ref="top" @click="scrollToTop" class="justify-center items-center">
         <p><i class="fa fa-long-arrow-up"></i></p>
     </div>
 </template>
@@ -76,7 +78,8 @@ section.header{
     position: relative;
     background-color: #fff;
     width: 100%;
-    height: 15vh;
+    height: auto;
+    min-height: 11vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,18 +120,19 @@ section.header{
     }
 }
 #scrollTop.show{
-    display: block !important;
+    display: flex!important;
 }
 #scrollTop{
-    display: none;
     position: fixed;
     bottom: 5%;
-    right: 10%;
-    background: $primary-color;
+    display: none;
+    right: 7%;
+    height: 30px;
+    background: #4f52ff;
     color: #fff;
-    padding: 10px 15px; 
     border-radius: 50%;
     cursor: pointer;
+    width: 30px;
 }
 
 

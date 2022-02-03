@@ -3,11 +3,13 @@
       <div class="container" data-aos="zoom-in">
           <div class="hero-text">
               <h1>Welcome to <span>Kaffir</span></h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero soluta molestias nobis tempore voluptatum!</p>
+              <p>Your number one Tech Solution partner, We help startup organization achieve their aim</p>
+              <p>you have a great idea you need hands on ? contact us now to get started</p>
               <a href="#">Learn More</a>
           </div>
           <div class="hero-asset">
               <img src="../assets/undraw_programming_re_kg9v.svg" alt="programmer-image">
+              <img src="../assets/undrawpair.svg" alt="programmer-image">
           </div>
       </div>
   </section>
