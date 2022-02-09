@@ -14,24 +14,24 @@
         <div class="navbar-collapse collapse" id="navbarContent">
           <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
             <li class="nav-item active">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
+              <a href="#" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="services.html" class="nav-link">Services</a>
+              <a href="#" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-              <a href="blog.html" class="nav-link">News</a>
+              <a href="#" class="nav-link">News</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="#" class="nav-link">Contact</a>
             </li>
           </ul>
 
           <div class="ml-auto">
-            <a href="#" class="btn btn-outline rounded-pill">Get a Quote</a>
+            <a href="#contact-us" class="btn btn-outline rounded-pill">Get started</a>
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@
             <p class="text-lg mb-2">We help you build your dream software and ideas</p>
             <p class="text-lg mb-5">Are you a start up company? or you need skillful techies?</p>
 
-            <a href="#" class="btn btn-outline border text-secondary">More Info</a>
-            <a href="#" class="btn btn-primary btn-split ml-2">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+            <!-- <a href="#" class="btn btn-outline border text-secondary">More Info</a><div class="fab"><span class="mai-play"></span></div> -->
+            <a href="#choose-us" class="btn btn-primary ml-2">more info?  </a>
           </div>
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place">
@@ -80,7 +80,7 @@
                 <img src="../../assets/img/icon_pattern.svg" alt="">
               </div>
               <div>
-                <h5>you need Creative branding for your business</h5>
+                <h5>you need branding for your business</h5>
                 <p>Logos, flyers, branded mug etc.</p>
               </div>
             </div>
@@ -92,8 +92,8 @@
                 <img src="../../assets/img/icon_pattern.svg" alt="">
               </div>
               <div>
-                <h5>Provide financial advice by our advisor</h5>
-                <p>Copywrite, blogpublic realations content translation.</p>
+                <h5>Thinking of kickstarting</h5>
+                <p>Let help you get to the top</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
   
     
   
-    <div class="page-section">
+    <div class="page-section" id="choose-us">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 py-3 wow fadeInLeft">
