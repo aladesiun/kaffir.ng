@@ -14,19 +14,19 @@
         <div class="navbar-collapse collapse" id="navbarContent">
           <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
             <li class="nav-item active">
-              <a href="#" class="nav-link">Home</a>
+              <a href="" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#choose-us" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Services</a>
+              <a href="#services" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">News</a>
+              <a href="#projects" class="nav-link">projects</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#contact-us" class="nav-link">Contact</a>
             </li>
           </ul>
 
@@ -59,7 +59,7 @@
   </header>
 
   <main>
-    <div class="page-section features">
+    <div class="page-section features" id="services">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
@@ -264,7 +264,7 @@
       </div> <!-- .container -->
     </div> <!-- .page-section -->
   
-    <div class="page-section border-top">
+    <div class="page-section border-top" id="projects">
       <div class="container">
         <div class="text-center wow fadeInUp">
           <div class="subhead">Our Project</div>
@@ -356,27 +356,6 @@
       </div> <!-- .container -->
     </div> <!-- .page-section -->
   
-    <div class="page-section client-section">
-      <div class="container-fluid">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
-          <div class="item wow zoomIn">
-            <img src="../../assets/img/clients/airbnb.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../../assets/img/clients/google.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../../assets/img/clients/stripe.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../../assets/img/clients/paypal.png" alt="">
-          </div>
-          <div class="item wow zoomIn">
-            <img src="../../assets/img/clients/mailchimp.png" alt="">
-          </div>
-        </div>
-      </div> <!-- .container-fluid -->
-    </div> <!-- .page-section -->
   </main>
 
   <footer class="page-footer">
