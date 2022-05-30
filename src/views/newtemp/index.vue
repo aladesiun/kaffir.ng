@@ -157,22 +157,22 @@
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
             <h5>High Performance</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <p>Here at kaffir we provide high quality performance in all aspect.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
             <h5>Friendly Prices</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <p>Our priceses are very friendly expecially to Start Ups.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
             <h5>No time-confusing</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <p>we are fast and accurate we deliver before due date.</p>
           </div>
         </div>
       </div> <!-- .container -->
     </div> <!-- .page-section -->
-    <div class="page-section bg-light">
+     <!-- <div class="page-section bg-light">
       <div class="container">
         
         <div class="owl-carousel wow fadeInUp" id="testimonials">
@@ -216,55 +216,9 @@
           </div>
   
         </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-  
-    <div class="page-section">
-      <div class="container">
-        <div class="row align-items-center " id="contact-us">
-          <div class="col-lg-6 py-3 wow fadeInUp">
-            <h2 class="title-section">Get in Touch</h2>
-            <div class="divider"></div>
-            <p>Get reach to us we promise you a quick respons<br>Let us know if you need to speak to one of our representative</p>
-  
-            <ul class="contact-list">
-              <li>
-                <div class="icon"><span class="mai-map"></span></div>
-                <div class="content">surulere, lagos, Nigeria</div>
-              </li>
-              <li>
-                <div class="icon"><span class="mai-mail"></span></div>
-                <div class="content"><a href="#">kaffirconcept@gmail.com</a></div>
-              </li>
-              <li>
-                <div class="icon"><span class="mai-phone-portrait"></span></div>
-                <div class="content"><a href="#">+234 9037 0199 67</a></div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 py-3 wow fadeInUp">
-            <div class="subhead">Contact Us</div>
-            <h2 class="title-section">Drop Us a Line</h2>
-            <div class="divider"></div>
-            
-            <form action="#">
-              <div class="py-2">
-                <input type="text" class="form-control" placeholder="Full name">
-              </div>
-              <div class="py-2">
-                <input type="text" class="form-control" placeholder="Email">
-              </div>
-              <div class="py-2">
-                <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-  
-    <div class="page-section border-top" id="projects">
+      </div> 
+    </div>  -->
+        <div class="page-section border-top" id="projects">
       <div class="container">
         <div class="text-center wow fadeInUp">
           <div class="subhead">Our Project</div>
@@ -272,89 +226,71 @@
           <div class="divider mx-auto"></div>
         </div>
         <div class="row my-5 card-blog-row">
-          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+          
+          <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="card-blog">
               <div class="header">
                 <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
+                  <div class="post-author">Resume generator</div>
+                  <a href="#" class="post-date">from Dec 2021</a>
                 </div>
               </div>
               <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is Business Management?</a></div>
+                <div class="post-title cappitalize"><a href="https://resume.kaffir.ng" class="capitalize">this app will help you generate your resume to get a job</a></div>
               </div>
               <div class="footer">
-                <a href="https://anonymous.kaffir.ng" target="_blank" >Check it out <span class="mai-chevron-forward text-sm"></span></a>
+                <a href="https://resume.kaffir.ng" target="_blank" >Check it out <span class="mai-chevron-forward text-sm"></span></a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+           
+          <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="card-blog">
               <div class="header">
-                <div class="avatar">
+                <!-- <div class="avatar">
                   <img src="../../assets/img/person/person_1.jpg" alt="">
-                </div>
+                </div> -->
                 <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
+                  <div class="post-author">Anonymous messaging</div>
+                  <a href="#" class="post-date">From  july 2019</a>
                 </div>
               </div>
               <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is Business Management?</a></div>
+                <div class="post-title"><a href="https://anonymous.kaffir.ng" target="_blank">What is Business Management?</a></div>
                 <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
               </div>
               <div class="footer">
-                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+                <a href="https://anonymous.kaffir.ng" target="_blank">Check it out <span class="mai-chevron-forward text-sm"></span></a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="card-blog">
               <div class="header">
-                <div class="avatar">
-                  <img src="../../assets/img/person/person_2.jpg" alt="">
-                </div>
                 <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
+                  <div class="post-author">Kaffir Academy</div>
+                  <a href="#" class="post-date">upcoming</a>
                 </div>
               </div>
               <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is Business Management?</a></div>
-                <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <div class="post-title cappitalize"><a href="#" class="capitalize">learn any digital skills from us</a></div>
               </div>
               <div class="footer">
-                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
-            <div class="card-blog">
-              <div class="header">
-                <div class="avatar">
-                  <img src="../../assets/img/person/person_3.jpg" alt="">
-                </div>
-                <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
-                </div>
-              </div>
-              <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is Business Management?</a></div>
-                <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-              </div>
-              <div class="footer">
-                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+                <a href="#" target="_blank" >Check it out <span class="mai-chevron-forward text-sm"></span></a>
               </div>
             </div>
           </div>
         </div>
   
-        <div class="text-center">
+        <!-- <div class="text-center">
           <a href="blog.html" class="btn btn-outline-primary rounded-pill">Discover More</a>
-        </div>
+        </div> -->
       </div> <!-- .container -->
     </div> <!-- .page-section -->
+    <contact/>
+    <!-- .page-section -->
+  
+
   
   </main>
 
@@ -367,8 +303,8 @@
 
           <p> Trust us it's going to be enthausating. Connect and make it beautiful.    </p>
 
-          <p><a href="#" >digigram@mail.com</a></p>
-          <p><a href="#">+00 1122 3344 5566</a></p>
+          <p><a href="#" >kaffirconcept@gmail.com</a></p>
+          <p><a href="#">+234 37019967</a></p>
         </div>
         <div class="col-lg-3 py-3">
           <h5>Quick Links</h5>
@@ -384,22 +320,23 @@
           <h5>About Us</h5>
           <ul class="footer-menu">
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Our Teams</a></li>
+            <li><a href="#" disabled>Our Teams</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">News & Press</a></li>
           </ul>
         </div>
         <div class="col-lg-3 py-3">
           <h5>Subscribe</h5>
-          <form action="#">
+          <form action="#" class="d-flex">
             <input type="text" class="form-control" placeholder="Enter your mail..">
+            <button type="submit" class="btn btn-primary ml-2">submit</button>
+
+            <!-- <button type="submi">submit</button> -->
           </form>
 
           <div class="sosmed-button mt-4">
             <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google"></span></a>
+            <a href="https://twitter.com/Temitopeluke"><span class="mai-logo-twitter"></span></a>
             <a href="https://www.linkedin.com/in/kaffir-concept-736693231/" target="_blank"><span class="mai-logo-linkedin"></span></a>
           </div>
         </div>
@@ -407,7 +344,7 @@
 
       <div class="row">
         <div class="col-sm-6 py-2">
-          <p id="copyright">&copy; 2020 <a href="https://macodeid.com/">MACode ID</a>. All rights reserved</p>
+          <p id="copyright">&copy; 2022 <a href="https://kaffir.ng/">KAFFIR</a>. All rights reserved</p>
         </div>
         <div class="col-sm-6 py-2 text-right">
           <div class="d-inline-block px-3">
@@ -426,3 +363,10 @@
 
 
 </template>
+<script>
+import contact from "./contact.vue"
+export default{
+  components:{contact}
+
+}
+</script>
