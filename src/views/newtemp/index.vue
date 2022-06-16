@@ -264,6 +264,40 @@
               </div>
             </div>
           </div>
+            <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="entry-footer">
+                  <div class="post-author">Algolunch</div>
+                  <a href="#" class="post-date">From march 2022</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title cappitalize"><a href="#" class="capitalize"> Fronted designs</a></div>
+                <div class="post-excerpt">We at kaffir handle the frontend designs for Algolunch powered by Algorand</div>
+              </div>
+              <div class="footer">
+                <a href="https://algolaunch.ai/" target="_blank" >Check it out <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="entry-footer">
+                  <div class="post-author">Algolunch</div>
+                  <a href="#" class="post-date">From march 2022</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title cappitalize"><a href="#" class="capitalize"> Fronted designs</a></div>
+                <div class="post-excerpt">We at kaffir handle the frontend designs for Algolunch powered by Algorand</div>
+              </div>
+              <div class="footer">
+                <a href="https://algolaunch.ai/" target="_blank" >Check it out <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
            <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="card-blog">
               <div class="header">
@@ -326,13 +360,8 @@
           </ul>
         </div>
         <div class="col-lg-3 py-3">
-          <h5>Subscribe</h5>
-          <form action="#" class="d-flex">
-            <input type="text" class="form-control" placeholder="Enter your mail..">
-            <button type="submit" class="btn btn-primary ml-2">submit</button>
-
-            <!-- <button type="submi">submit</button> -->
-          </form>
+          <h5>follow us</h5>
+         
 
           <div class="sosmed-button mt-4">
             <a href="#"><span class="mai-logo-facebook-f"></span></a>
